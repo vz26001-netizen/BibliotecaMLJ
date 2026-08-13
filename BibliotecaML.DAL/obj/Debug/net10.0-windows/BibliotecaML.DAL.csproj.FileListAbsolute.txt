@@ -1,0 +1,14 @@
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\bin\Debug\net10.0-windows\BibliotecaML.DAL.exe
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\bin\Debug\net10.0-windows\BibliotecaML.DAL.deps.json
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\bin\Debug\net10.0-windows\BibliotecaML.DAL.runtimeconfig.json
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\bin\Debug\net10.0-windows\BibliotecaML.DAL.dll
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\bin\Debug\net10.0-windows\BibliotecaML.DAL.pdb
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\BibliotecaML.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\BibliotecaML.DAL.AssemblyInfoInputs.cache
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\BibliotecaML.DAL.AssemblyInfo.cs
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\BibliotecaML.DAL.csproj.CoreCompileInputs.cache
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\BibliotecaML.DAL.dll
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\refint\BibliotecaML.DAL.dll
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\BibliotecaML.DAL.pdb
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\BibliotecaML.DAL.genruntimeconfig.cache
+C:\Users\kimbe\source\repos\BibliotecaML\BibliotecaML.DAL\obj\Debug\net10.0-windows\ref\BibliotecaML.DAL.dll

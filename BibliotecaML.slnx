@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BibliotecaML.DAL/BibliotecaML.DAL.csproj" />
+  <Project Path="BibliotecaML.EN/BibliotecaML.EN.csproj" />
+  <Project Path="BibliotecaML.LN/BibliotecaML.LN.csproj" />
+  <Project Path="BibliotecaML.UI/BibliotecaML.UI.csproj" />
+</Solution>
