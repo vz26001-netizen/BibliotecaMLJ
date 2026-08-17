@@ -30,16 +30,16 @@
         {
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
-            lblFechaInicial = new Label();
-            txtFechaInicial = new TextBox();
-            FechaInicial = new Label();
-            textBox1 = new TextBox();
+            txtTipoReporte = new TextBox();
             lblTipoDeReporte = new Label();
-            textBox2 = new TextBox();
+            txtFechaFinal = new TextBox();
+            FechaFinal = new Label();
+            txtFechaInicial = new TextBox();
+            lblFechaInicial = new Label();
             groupBox3 = new GroupBox();
-            btnImprimir = new Button();
-            btnExportarPDF = new Button();
             btnLimpiar = new Button();
+            btnExportarPDF = new Button();
+            btnImprimir = new Button();
             dataGridView1 = new DataGridView();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -57,10 +57,10 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(textBox2);
+            groupBox2.Controls.Add(txtTipoReporte);
             groupBox2.Controls.Add(lblTipoDeReporte);
-            groupBox2.Controls.Add(textBox1);
-            groupBox2.Controls.Add(FechaInicial);
+            groupBox2.Controls.Add(txtFechaFinal);
+            groupBox2.Controls.Add(FechaFinal);
             groupBox2.Controls.Add(txtFechaInicial);
             groupBox2.Controls.Add(lblFechaInicial);
             groupBox2.Location = new Point(119, 200);
@@ -68,6 +68,54 @@
             groupBox2.Size = new Size(513, 105);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
+            // 
+            // txtTipoReporte
+            // 
+            txtTipoReporte.BackColor = SystemColors.ScrollBar;
+            txtTipoReporte.Location = new Point(163, 79);
+            txtTipoReporte.Name = "txtTipoReporte";
+            txtTipoReporte.Size = new Size(255, 23);
+            txtTipoReporte.TabIndex = 5;
+            // 
+            // lblTipoDeReporte
+            // 
+            lblTipoDeReporte.AutoSize = true;
+            lblTipoDeReporte.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTipoDeReporte.Location = new Point(65, 82);
+            lblTipoDeReporte.Name = "lblTipoDeReporte";
+            lblTipoDeReporte.Size = new Size(92, 15);
+            lblTipoDeReporte.TabIndex = 4;
+            lblTipoDeReporte.Text = "Tip de reporte :";
+            // 
+            // txtFechaFinal
+            // 
+            txtFechaFinal.BackColor = SystemColors.ScrollBar;
+            txtFechaFinal.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtFechaFinal.Location = new Point(160, 48);
+            txtFechaFinal.Name = "txtFechaFinal";
+            txtFechaFinal.Size = new Size(258, 21);
+            txtFechaFinal.TabIndex = 3;
+            txtFechaFinal.Text = "Mièrcoles, 12 de agosto del 2026";
+            // 
+            // FechaFinal
+            // 
+            FechaFinal.AutoSize = true;
+            FechaFinal.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            FechaFinal.Location = new Point(65, 51);
+            FechaFinal.Name = "FechaFinal";
+            FechaFinal.Size = new Size(79, 15);
+            FechaFinal.TabIndex = 2;
+            FechaFinal.Text = "Fecha Final  :";
+            // 
+            // txtFechaInicial
+            // 
+            txtFechaInicial.BackColor = SystemColors.ScrollBar;
+            txtFechaInicial.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtFechaInicial.Location = new Point(160, 16);
+            txtFechaInicial.Name = "txtFechaInicial";
+            txtFechaInicial.Size = new Size(258, 21);
+            txtFechaInicial.TabIndex = 1;
+            txtFechaInicial.Text = "Mièrcoles, 12 de agosto del 2026";
             // 
             // lblFechaInicial
             // 
@@ -80,54 +128,6 @@
             lblFechaInicial.TabIndex = 0;
             lblFechaInicial.Text = "Fecha Inicial :";
             // 
-            // txtFechaInicial
-            // 
-            txtFechaInicial.BackColor = SystemColors.ScrollBar;
-            txtFechaInicial.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtFechaInicial.Location = new Point(160, 16);
-            txtFechaInicial.Name = "txtFechaInicial";
-            txtFechaInicial.Size = new Size(258, 21);
-            txtFechaInicial.TabIndex = 1;
-            txtFechaInicial.Text = "Mièrcoles, 12 de agosto del 2026";
-            // 
-            // FechaInicial
-            // 
-            FechaInicial.AutoSize = true;
-            FechaInicial.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            FechaInicial.Location = new Point(65, 51);
-            FechaInicial.Name = "FechaInicial";
-            FechaInicial.Size = new Size(83, 15);
-            FechaInicial.TabIndex = 2;
-            FechaInicial.Text = "Fecha Inicial :";
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ScrollBar;
-            textBox1.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(160, 48);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(258, 21);
-            textBox1.TabIndex = 3;
-            textBox1.Text = "Mièrcoles, 12 de agosto del 2026";
-            // 
-            // lblTipoDeReporte
-            // 
-            lblTipoDeReporte.AutoSize = true;
-            lblTipoDeReporte.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTipoDeReporte.Location = new Point(65, 82);
-            lblTipoDeReporte.Name = "lblTipoDeReporte";
-            lblTipoDeReporte.Size = new Size(92, 15);
-            lblTipoDeReporte.TabIndex = 4;
-            lblTipoDeReporte.Text = "Tip de reporte :";
-            // 
-            // textBox2
-            // 
-            textBox2.BackColor = SystemColors.ScrollBar;
-            textBox2.Location = new Point(163, 79);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(255, 23);
-            textBox2.TabIndex = 5;
-            // 
             // groupBox3
             // 
             groupBox3.Controls.Add(btnLimpiar);
@@ -139,16 +139,16 @@
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             // 
-            // btnImprimir
+            // btnLimpiar
             // 
-            btnImprimir.BackColor = SystemColors.ScrollBar;
-            btnImprimir.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnImprimir.Location = new Point(56, 10);
-            btnImprimir.Name = "btnImprimir";
-            btnImprimir.Size = new Size(92, 23);
-            btnImprimir.TabIndex = 0;
-            btnImprimir.Text = "Imprimir PDF";
-            btnImprimir.UseVisualStyleBackColor = false;
+            btnLimpiar.BackColor = SystemColors.ScrollBar;
+            btnLimpiar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLimpiar.Location = new Point(359, 10);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(92, 23);
+            btnLimpiar.TabIndex = 2;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = false;
             // 
             // btnExportarPDF
             // 
@@ -161,16 +161,16 @@
             btnExportarPDF.Text = "Exportar PDF";
             btnExportarPDF.UseVisualStyleBackColor = false;
             // 
-            // btnLimpiar
+            // btnImprimir
             // 
-            btnLimpiar.BackColor = SystemColors.ScrollBar;
-            btnLimpiar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnLimpiar.Location = new Point(359, 10);
-            btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(92, 23);
-            btnLimpiar.TabIndex = 2;
-            btnLimpiar.Text = "Limpiar";
-            btnLimpiar.UseVisualStyleBackColor = false;
+            btnImprimir.BackColor = SystemColors.ScrollBar;
+            btnImprimir.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnImprimir.Location = new Point(56, 10);
+            btnImprimir.Name = "btnImprimir";
+            btnImprimir.Size = new Size(92, 23);
+            btnImprimir.TabIndex = 0;
+            btnImprimir.Text = "Imprimir PDF";
+            btnImprimir.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -203,12 +203,12 @@
 
         private GroupBox groupBox1;
         private GroupBox groupBox2;
-        private Label FechaInicial;
+        private Label FechaFinal;
         private TextBox txtFechaInicial;
         private Label lblFechaInicial;
         private Label lblTipoDeReporte;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtFechaFinal;
+        private TextBox txtTipoReporte;
         private GroupBox groupBox3;
         private Button btnImprimir;
         private Button btnLimpiar;

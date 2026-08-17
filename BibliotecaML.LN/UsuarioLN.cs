@@ -1,10 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using BibliotecaML.DAL;
+using BibliotecaML.EN;
 
 namespace BibliotecaML.LN
 {
-    internal class UsuarioLN
+    public partial class UsuarioLN
     {
+        private UsuarioDAL usuarioDAL = new UsuarioDAL();
+
+        public Usuario IniciarSesion(string correo, string contrasena)
+        {
+            return usuarioDAL.IniciarSesion(correo, contrasena);
+        }
     }
 }

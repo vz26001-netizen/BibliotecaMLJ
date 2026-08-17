@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaML.LN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9d4d50d499ff8859a6b376482b1330e0146e2bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaML.LN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaML.LN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

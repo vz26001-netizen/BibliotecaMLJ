@@ -30,15 +30,15 @@
         {
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
-            groupBox3 = new GroupBox();
-            groupBox4 = new GroupBox();
-            lblCorreoElectronico = new Label();
-            txtCorreoElectrnico = new TextBox();
-            lblContraseña = new Label();
             txtContraseña = new TextBox();
-            btnIniciarSesion = new Button();
-            btnGoogle = new Button();
+            lblContraseña = new Label();
+            txtCorreoElectronico = new TextBox();
+            lblCorreoElectronico = new Label();
+            groupBox3 = new GroupBox();
             btnFacebook = new Button();
+            btnGoogle = new Button();
+            btnIniciarSesion = new Button();
+            groupBox4 = new GroupBox();
             label1 = new Label();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -58,7 +58,7 @@
             // 
             groupBox2.Controls.Add(txtContraseña);
             groupBox2.Controls.Add(lblContraseña);
-            groupBox2.Controls.Add(txtCorreoElectrnico);
+            groupBox2.Controls.Add(txtCorreoElectronico);
             groupBox2.Controls.Add(lblCorreoElectronico);
             groupBox2.ForeColor = SystemColors.ActiveCaptionText;
             groupBox2.Location = new Point(126, 202);
@@ -66,6 +66,40 @@
             groupBox2.Size = new Size(486, 91);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
+            // 
+            // txtContraseña
+            // 
+            txtContraseña.Location = new Point(155, 51);
+            txtContraseña.Name = "txtContraseña";
+            txtContraseña.Size = new Size(216, 23);
+            txtContraseña.TabIndex = 3;
+            // 
+            // lblContraseña
+            // 
+            lblContraseña.AutoSize = true;
+            lblContraseña.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblContraseña.Location = new Point(70, 51);
+            lblContraseña.Name = "lblContraseña";
+            lblContraseña.Size = new Size(79, 15);
+            lblContraseña.TabIndex = 2;
+            lblContraseña.Text = "Contraseña :";
+            // 
+            // txtCorreoElectronico
+            // 
+            txtCorreoElectronico.Location = new Point(155, 16);
+            txtCorreoElectronico.Name = "txtCorreoElectronico";
+            txtCorreoElectronico.Size = new Size(216, 23);
+            txtCorreoElectronico.TabIndex = 1;
+            // 
+            // lblCorreoElectronico
+            // 
+            lblCorreoElectronico.AutoSize = true;
+            lblCorreoElectronico.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCorreoElectronico.Location = new Point(30, 19);
+            lblCorreoElectronico.Name = "lblCorreoElectronico";
+            lblCorreoElectronico.Size = new Size(119, 15);
+            lblCorreoElectronico.TabIndex = 0;
+            lblCorreoElectronico.Text = "Correo electrònico :";
             // 
             // groupBox3
             // 
@@ -78,59 +112,16 @@
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             // 
-            // groupBox4
+            // btnFacebook
             // 
-            groupBox4.Controls.Add(label1);
-            groupBox4.Location = new Point(199, 370);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(364, 26);
-            groupBox4.TabIndex = 3;
-            groupBox4.TabStop = false;
-            // 
-            // lblCorreoElectronico
-            // 
-            lblCorreoElectronico.AutoSize = true;
-            lblCorreoElectronico.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCorreoElectronico.Location = new Point(30, 19);
-            lblCorreoElectronico.Name = "lblCorreoElectronico";
-            lblCorreoElectronico.Size = new Size(119, 15);
-            lblCorreoElectronico.TabIndex = 0;
-            lblCorreoElectronico.Text = "Correo electrònico :";
-            // 
-            // txtCorreoElectrnico
-            // 
-            txtCorreoElectrnico.Location = new Point(155, 16);
-            txtCorreoElectrnico.Name = "txtCorreoElectrnico";
-            txtCorreoElectrnico.Size = new Size(216, 23);
-            txtCorreoElectrnico.TabIndex = 1;
-            // 
-            // lblContraseña
-            // 
-            lblContraseña.AutoSize = true;
-            lblContraseña.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblContraseña.Location = new Point(70, 51);
-            lblContraseña.Name = "lblContraseña";
-            lblContraseña.Size = new Size(79, 15);
-            lblContraseña.TabIndex = 2;
-            lblContraseña.Text = "Contraseña :";
-            // 
-            // txtContraseña
-            // 
-            txtContraseña.Location = new Point(155, 51);
-            txtContraseña.Name = "txtContraseña";
-            txtContraseña.Size = new Size(216, 23);
-            txtContraseña.TabIndex = 3;
-            // 
-            // btnIniciarSesion
-            // 
-            btnIniciarSesion.BackColor = SystemColors.ScrollBar;
-            btnIniciarSesion.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnIniciarSesion.Location = new Point(30, 13);
-            btnIniciarSesion.Name = "btnIniciarSesion";
-            btnIniciarSesion.Size = new Size(94, 23);
-            btnIniciarSesion.TabIndex = 0;
-            btnIniciarSesion.Text = "Iniciar Sesiòn";
-            btnIniciarSesion.UseVisualStyleBackColor = false;
+            btnFacebook.BackColor = SystemColors.ScrollBar;
+            btnFacebook.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnFacebook.Location = new Point(346, 13);
+            btnFacebook.Name = "btnFacebook";
+            btnFacebook.Size = new Size(75, 23);
+            btnFacebook.TabIndex = 2;
+            btnFacebook.Text = "Facebook";
+            btnFacebook.UseVisualStyleBackColor = false;
             // 
             // btnGoogle
             // 
@@ -143,16 +134,25 @@
             btnGoogle.Text = "Google";
             btnGoogle.UseVisualStyleBackColor = false;
             // 
-            // btnFacebook
+            // btnIniciarSesion
             // 
-            btnFacebook.BackColor = SystemColors.ScrollBar;
-            btnFacebook.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnFacebook.Location = new Point(346, 13);
-            btnFacebook.Name = "btnFacebook";
-            btnFacebook.Size = new Size(75, 23);
-            btnFacebook.TabIndex = 2;
-            btnFacebook.Text = "Facebook";
-            btnFacebook.UseVisualStyleBackColor = false;
+            btnIniciarSesion.BackColor = SystemColors.ScrollBar;
+            btnIniciarSesion.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnIniciarSesion.Location = new Point(30, 13);
+            btnIniciarSesion.Name = "btnIniciarSesion";
+            btnIniciarSesion.Size = new Size(94, 23);
+            btnIniciarSesion.TabIndex = 0;
+            btnIniciarSesion.Text = "Iniciar Sesiòn";
+            btnIniciarSesion.UseVisualStyleBackColor = false;
+            // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(label1);
+            groupBox4.Location = new Point(199, 370);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(364, 26);
+            groupBox4.TabIndex = 3;
+            groupBox4.TabStop = false;
             // 
             // label1
             // 
@@ -193,7 +193,7 @@
         private GroupBox groupBox4;
         private TextBox txtContraseña;
         private Label lblContraseña;
-        private TextBox txtCorreoElectrnico;
+        private TextBox txtCorreoElectronico;
         private Label lblCorreoElectronico;
         private Button btnIniciarSesion;
         private Button btnGoogle;

@@ -153,6 +153,16 @@ namespace BibliotecaML.UI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2026_08_12_1736217 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-08-12 1736217", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2026_08_12_192254 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2026-08-12 192254", resourceCulture);

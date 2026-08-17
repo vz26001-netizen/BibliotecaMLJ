@@ -55,12 +55,10 @@
             colDocumento = new DataGridViewTextBoxColumn();
             colCorreo = new DataGridViewTextBoxColumn();
             colTelefono = new DataGridViewTextBoxColumn();
-            lblGestiòndeEstudiantes = new GroupBox();
-            label1 = new Label();
+            groupBox1 = new GroupBox();
             Datos.SuspendLayout();
             grpBotones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            lblGestiòndeEstudiantes.SuspendLayout();
             SuspendLayout();
             // 
             // Datos
@@ -79,9 +77,9 @@
             Datos.Controls.Add(txtEstudiante);
             Datos.Controls.Add(lblIdEstudiante);
             Datos.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Datos.Location = new Point(118, 77);
+            Datos.Location = new Point(118, 183);
             Datos.Name = "Datos";
-            Datos.Size = new Size(654, 134);
+            Datos.Size = new Size(654, 93);
             Datos.TabIndex = 1;
             Datos.TabStop = false;
             // 
@@ -98,7 +96,7 @@
             // txtIdTelefono
             // 
             txtIdTelefono.BackColor = SystemColors.InactiveCaption;
-            txtIdTelefono.Location = new Point(540, 97);
+            txtIdTelefono.Location = new Point(540, 61);
             txtIdTelefono.Name = "txtIdTelefono";
             txtIdTelefono.Size = new Size(100, 21);
             txtIdTelefono.TabIndex = 11;
@@ -106,7 +104,7 @@
             // lblIdTelefono
             // 
             lblIdTelefono.AutoSize = true;
-            lblIdTelefono.Location = new Point(450, 100);
+            lblIdTelefono.Location = new Point(450, 61);
             lblIdTelefono.Name = "lblIdTelefono";
             lblIdTelefono.Size = new Size(74, 15);
             lblIdTelefono.TabIndex = 10;
@@ -115,7 +113,7 @@
             // txIdCorreo
             // 
             txIdCorreo.BackColor = SystemColors.InactiveCaption;
-            txIdCorreo.Location = new Point(339, 94);
+            txIdCorreo.Location = new Point(335, 61);
             txIdCorreo.Name = "txIdCorreo";
             txIdCorreo.Size = new Size(100, 21);
             txIdCorreo.TabIndex = 9;
@@ -123,7 +121,7 @@
             // lblIdCorreo
             // 
             lblIdCorreo.AutoSize = true;
-            lblIdCorreo.Location = new Point(240, 94);
+            lblIdCorreo.Location = new Point(234, 61);
             lblIdCorreo.Name = "lblIdCorreo";
             lblIdCorreo.Size = new Size(65, 15);
             lblIdCorreo.TabIndex = 8;
@@ -132,7 +130,7 @@
             // txtIdDocumento
             // 
             txtIdDocumento.BackColor = SystemColors.InactiveCaption;
-            txtIdDocumento.Location = new Point(116, 94);
+            txtIdDocumento.Location = new Point(111, 58);
             txtIdDocumento.Name = "txtIdDocumento";
             txtIdDocumento.Size = new Size(100, 21);
             txtIdDocumento.TabIndex = 7;
@@ -140,7 +138,7 @@
             // llIdDocumento
             // 
             llIdDocumento.AutoSize = true;
-            llIdDocumento.Location = new Point(19, 94);
+            llIdDocumento.Location = new Point(14, 61);
             llIdDocumento.Name = "llIdDocumento";
             llIdDocumento.Size = new Size(91, 15);
             llIdDocumento.TabIndex = 6;
@@ -150,7 +148,7 @@
             // 
             txtIdApellido.BackColor = SystemColors.InactiveCaption;
             txtIdApellido.ForeColor = SystemColors.InactiveCaption;
-            txtIdApellido.Location = new Point(540, 61);
+            txtIdApellido.Location = new Point(540, 30);
             txtIdApellido.Name = "txtIdApellido";
             txtIdApellido.Size = new Size(100, 21);
             txtIdApellido.TabIndex = 5;
@@ -158,7 +156,7 @@
             // lblIdApellido
             // 
             lblIdApellido.AutoSize = true;
-            lblIdApellido.Location = new Point(453, 64);
+            lblIdApellido.Location = new Point(450, 30);
             lblIdApellido.Name = "lblIdApellido";
             lblIdApellido.Size = new Size(71, 15);
             lblIdApellido.TabIndex = 4;
@@ -167,7 +165,7 @@
             // txtIdNombre
             // 
             txtIdNombre.BackColor = SystemColors.InactiveCaption;
-            txtIdNombre.Location = new Point(339, 61);
+            txtIdNombre.Location = new Point(335, 30);
             txtIdNombre.Name = "txtIdNombre";
             txtIdNombre.Size = new Size(100, 21);
             txtIdNombre.TabIndex = 3;
@@ -175,7 +173,7 @@
             // lblIdNombre
             // 
             lblIdNombre.AutoSize = true;
-            lblIdNombre.Location = new Point(234, 64);
+            lblIdNombre.Location = new Point(234, 30);
             lblIdNombre.Name = "lblIdNombre";
             lblIdNombre.Size = new Size(71, 15);
             lblIdNombre.TabIndex = 2;
@@ -184,7 +182,7 @@
             // txtEstudiante
             // 
             txtEstudiante.BackColor = SystemColors.InactiveCaption;
-            txtEstudiante.Location = new Point(116, 61);
+            txtEstudiante.Location = new Point(111, 30);
             txtEstudiante.Name = "txtEstudiante";
             txtEstudiante.Size = new Size(100, 21);
             txtEstudiante.TabIndex = 1;
@@ -192,7 +190,7 @@
             // lblIdEstudiante
             // 
             lblIdEstudiante.AutoSize = true;
-            lblIdEstudiante.Location = new Point(19, 64);
+            lblIdEstudiante.Location = new Point(19, 30);
             lblIdEstudiante.Name = "lblIdEstudiante";
             lblIdEstudiante.Size = new Size(86, 15);
             lblIdEstudiante.TabIndex = 0;
@@ -206,9 +204,9 @@
             grpBotones.Controls.Add(btnAgregar);
             grpBotones.Controls.Add(btnNuevo);
             grpBotones.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            grpBotones.Location = new Point(118, 217);
+            grpBotones.Location = new Point(118, 282);
             grpBotones.Name = "grpBotones";
-            grpBotones.Size = new Size(654, 61);
+            grpBotones.Size = new Size(654, 50);
             grpBotones.TabIndex = 2;
             grpBotones.TabStop = false;
             grpBotones.Text = "Botones ";
@@ -273,9 +271,9 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ColIdEstudiante, colNombre, colApellido, colDocumento, colCorreo, colTelefono });
-            dataGridView1.Location = new Point(121, 291);
+            dataGridView1.Location = new Point(118, 338);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(651, 89);
+            dataGridView1.Size = new Size(654, 89);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -309,24 +307,14 @@
             colTelefono.HeaderText = "Telèfono";
             colTelefono.Name = "colTelefono";
             // 
-            // lblGestiòndeEstudiantes
+            // groupBox1
             // 
-            lblGestiòndeEstudiantes.Controls.Add(label1);
-            lblGestiòndeEstudiantes.Location = new Point(290, 12);
-            lblGestiòndeEstudiantes.Name = "lblGestiòndeEstudiantes";
-            lblGestiòndeEstudiantes.Size = new Size(309, 44);
-            lblGestiòndeEstudiantes.TabIndex = 4;
-            lblGestiòndeEstudiantes.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial Narrow", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(77, 12);
-            label1.Name = "label1";
-            label1.Size = new Size(186, 23);
-            label1.TabIndex = 0;
-            label1.Text = "Gestiòn de Estudiantes";
+            groupBox1.BackgroundImage = Properties.Resources.Captura_de_pantalla_2026_08_12_1736217;
+            groupBox1.Location = new Point(317, 12);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(200, 165);
+            groupBox1.TabIndex = 4;
+            groupBox1.TabStop = false;
             // 
             // FrmEstudiantes
             // 
@@ -334,7 +322,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources._110728;
             ClientSize = new Size(859, 450);
-            Controls.Add(lblGestiòndeEstudiantes);
+            Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
             Controls.Add(grpBotones);
             Controls.Add(Datos);
@@ -344,8 +332,6 @@
             Datos.PerformLayout();
             grpBotones.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            lblGestiòndeEstudiantes.ResumeLayout(false);
-            lblGestiòndeEstudiantes.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -392,7 +378,6 @@
         private DataGridViewTextBoxColumn colDocumento;
         private DataGridViewTextBoxColumn colCorreo;
         private DataGridViewTextBoxColumn colTelefono;
-        private GroupBox lblGestiòndeEstudiantes;
-        private Label label1;
+        private GroupBox groupBox1;
     }
 }

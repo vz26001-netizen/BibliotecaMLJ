@@ -30,20 +30,20 @@
         {
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
-            lblEstudiante = new Label();
-            textBox1 = new TextBox();
-            lblLibro = new Label();
-            textBox2 = new TextBox();
-            lblEstadoDelLibro = new Label();
-            textBox3 = new TextBox();
+            dtpFechaPrestamo = new TextBox();
             lblFechaDePrèstamo = new Label();
-            textBox4 = new TextBox();
+            txtEstadoLibro = new TextBox();
+            lblEstadoDelLibro = new Label();
+            txtLibro = new TextBox();
+            lblLibro = new Label();
+            txtEstudiante = new TextBox();
+            lblEstudiante = new Label();
             groupBox3 = new GroupBox();
-            btnNuevo = new Button();
-            btnRegistrarPrèstamo = new Button();
-            btnActualizar = new Button();
-            btEliminar = new Button();
             btnLimpiar = new Button();
+            btEliminar = new Button();
+            btnActualizar = new Button();
+            btnRegistrarPrèstamo = new Button();
+            btnNuevo = new Button();
             dataGridView1 = new DataGridView();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -61,13 +61,13 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(textBox4);
+            groupBox2.Controls.Add(dtpFechaPrestamo);
             groupBox2.Controls.Add(lblFechaDePrèstamo);
-            groupBox2.Controls.Add(textBox3);
+            groupBox2.Controls.Add(txtEstadoLibro);
             groupBox2.Controls.Add(lblEstadoDelLibro);
-            groupBox2.Controls.Add(textBox2);
+            groupBox2.Controls.Add(txtLibro);
             groupBox2.Controls.Add(lblLibro);
-            groupBox2.Controls.Add(textBox1);
+            groupBox2.Controls.Add(txtEstudiante);
             groupBox2.Controls.Add(lblEstudiante);
             groupBox2.Location = new Point(73, 196);
             groupBox2.Name = "groupBox2";
@@ -75,59 +75,15 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             // 
-            // lblEstudiante
+            // dtpFechaPrestamo
             // 
-            lblEstudiante.AutoSize = true;
-            lblEstudiante.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEstudiante.Location = new Point(19, 19);
-            lblEstudiante.Name = "lblEstudiante";
-            lblEstudiante.Size = new Size(73, 15);
-            lblEstudiante.TabIndex = 0;
-            lblEstudiante.Text = "Estudiante :";
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ScrollBar;
-            textBox1.Location = new Point(98, 16);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(167, 23);
-            textBox1.TabIndex = 1;
-            // 
-            // lblLibro
-            // 
-            lblLibro.AutoSize = true;
-            lblLibro.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblLibro.Location = new Point(50, 56);
-            lblLibro.Name = "lblLibro";
-            lblLibro.Size = new Size(42, 15);
-            lblLibro.TabIndex = 2;
-            lblLibro.Text = "Libro :";
-            // 
-            // textBox2
-            // 
-            textBox2.BackColor = SystemColors.ScrollBar;
-            textBox2.Location = new Point(98, 53);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(167, 23);
-            textBox2.TabIndex = 3;
-            // 
-            // lblEstadoDelLibro
-            // 
-            lblEstadoDelLibro.AutoSize = true;
-            lblEstadoDelLibro.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEstadoDelLibro.Location = new Point(298, 19);
-            lblEstadoDelLibro.Name = "lblEstadoDelLibro";
-            lblEstadoDelLibro.Size = new Size(100, 15);
-            lblEstadoDelLibro.TabIndex = 4;
-            lblEstadoDelLibro.Text = "Estado del libro :";
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = SystemColors.ScrollBar;
-            textBox3.Location = new Point(404, 19);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(200, 23);
-            textBox3.TabIndex = 5;
+            dtpFechaPrestamo.BackColor = SystemColors.ScrollBar;
+            dtpFechaPrestamo.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dtpFechaPrestamo.Location = new Point(404, 53);
+            dtpFechaPrestamo.Name = "dtpFechaPrestamo";
+            dtpFechaPrestamo.Size = new Size(200, 21);
+            dtpFechaPrestamo.TabIndex = 7;
+            dtpFechaPrestamo.Text = "Mièrcoles, 12 de agosto del 2026";
             // 
             // lblFechaDePrèstamo
             // 
@@ -139,15 +95,59 @@
             lblFechaDePrèstamo.TabIndex = 6;
             lblFechaDePrèstamo.Text = "Fecha de Prèsamo :";
             // 
-            // textBox4
+            // txtEstadoLibro
             // 
-            textBox4.BackColor = SystemColors.ScrollBar;
-            textBox4.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(404, 53);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(200, 21);
-            textBox4.TabIndex = 7;
-            textBox4.Text = "Mièrcoles, 12 de agosto del 2026";
+            txtEstadoLibro.BackColor = SystemColors.ScrollBar;
+            txtEstadoLibro.Location = new Point(404, 19);
+            txtEstadoLibro.Name = "txtEstadoLibro";
+            txtEstadoLibro.Size = new Size(200, 23);
+            txtEstadoLibro.TabIndex = 5;
+            // 
+            // lblEstadoDelLibro
+            // 
+            lblEstadoDelLibro.AutoSize = true;
+            lblEstadoDelLibro.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEstadoDelLibro.Location = new Point(298, 19);
+            lblEstadoDelLibro.Name = "lblEstadoDelLibro";
+            lblEstadoDelLibro.Size = new Size(100, 15);
+            lblEstadoDelLibro.TabIndex = 4;
+            lblEstadoDelLibro.Text = "Estado del libro :";
+            // 
+            // txtLibro
+            // 
+            txtLibro.BackColor = SystemColors.ScrollBar;
+            txtLibro.Location = new Point(98, 53);
+            txtLibro.Name = "txtLibro";
+            txtLibro.Size = new Size(167, 23);
+            txtLibro.TabIndex = 3;
+            // 
+            // lblLibro
+            // 
+            lblLibro.AutoSize = true;
+            lblLibro.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblLibro.Location = new Point(50, 56);
+            lblLibro.Name = "lblLibro";
+            lblLibro.Size = new Size(42, 15);
+            lblLibro.TabIndex = 2;
+            lblLibro.Text = "Libro :";
+            // 
+            // txtEstudiante
+            // 
+            txtEstudiante.BackColor = SystemColors.ScrollBar;
+            txtEstudiante.Location = new Point(98, 16);
+            txtEstudiante.Name = "txtEstudiante";
+            txtEstudiante.Size = new Size(167, 23);
+            txtEstudiante.TabIndex = 1;
+            // 
+            // lblEstudiante
+            // 
+            lblEstudiante.AutoSize = true;
+            lblEstudiante.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEstudiante.Location = new Point(19, 19);
+            lblEstudiante.Name = "lblEstudiante";
+            lblEstudiante.Size = new Size(73, 15);
+            lblEstudiante.TabIndex = 0;
+            lblEstudiante.Text = "Estudiante :";
             // 
             // groupBox3
             // 
@@ -162,38 +162,16 @@
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             // 
-            // btnNuevo
+            // btnLimpiar
             // 
-            btnNuevo.BackColor = SystemColors.ScrollBar;
-            btnNuevo.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNuevo.Location = new Point(6, 17);
-            btnNuevo.Name = "btnNuevo";
-            btnNuevo.Size = new Size(75, 23);
-            btnNuevo.TabIndex = 0;
-            btnNuevo.Text = "Nuevo";
-            btnNuevo.UseVisualStyleBackColor = false;
-            // 
-            // btnRegistrarPrèstamo
-            // 
-            btnRegistrarPrèstamo.BackColor = SystemColors.ScrollBar;
-            btnRegistrarPrèstamo.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistrarPrèstamo.Location = new Point(130, 17);
-            btnRegistrarPrèstamo.Name = "btnRegistrarPrèstamo";
-            btnRegistrarPrèstamo.Size = new Size(135, 23);
-            btnRegistrarPrèstamo.TabIndex = 1;
-            btnRegistrarPrèstamo.Text = "Registrar Prèstamo";
-            btnRegistrarPrèstamo.UseVisualStyleBackColor = false;
-            // 
-            // btnActualizar
-            // 
-            btnActualizar.BackColor = SystemColors.ScrollBar;
-            btnActualizar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualizar.Location = new Point(298, 17);
-            btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(75, 23);
-            btnActualizar.TabIndex = 2;
-            btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = false;
+            btnLimpiar.BackColor = SystemColors.ScrollBar;
+            btnLimpiar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLimpiar.Location = new Point(516, 17);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(75, 23);
+            btnLimpiar.TabIndex = 4;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = false;
             // 
             // btEliminar
             // 
@@ -206,16 +184,38 @@
             btEliminar.Text = "Eliminar";
             btEliminar.UseVisualStyleBackColor = false;
             // 
-            // btnLimpiar
+            // btnActualizar
             // 
-            btnLimpiar.BackColor = SystemColors.ScrollBar;
-            btnLimpiar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnLimpiar.Location = new Point(516, 17);
-            btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(75, 23);
-            btnLimpiar.TabIndex = 4;
-            btnLimpiar.Text = "Limpiar";
-            btnLimpiar.UseVisualStyleBackColor = false;
+            btnActualizar.BackColor = SystemColors.ScrollBar;
+            btnActualizar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnActualizar.Location = new Point(298, 17);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(75, 23);
+            btnActualizar.TabIndex = 2;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = false;
+            // 
+            // btnRegistrarPrèstamo
+            // 
+            btnRegistrarPrèstamo.BackColor = SystemColors.ScrollBar;
+            btnRegistrarPrèstamo.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegistrarPrèstamo.Location = new Point(130, 17);
+            btnRegistrarPrèstamo.Name = "btnRegistrarPrèstamo";
+            btnRegistrarPrèstamo.Size = new Size(135, 23);
+            btnRegistrarPrèstamo.TabIndex = 1;
+            btnRegistrarPrèstamo.Text = "Registrar Prèstamo";
+            btnRegistrarPrèstamo.UseVisualStyleBackColor = false;
+            // 
+            // btnNuevo
+            // 
+            btnNuevo.BackColor = SystemColors.ScrollBar;
+            btnNuevo.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnNuevo.Location = new Point(6, 17);
+            btnNuevo.Name = "btnNuevo";
+            btnNuevo.Size = new Size(75, 23);
+            btnNuevo.TabIndex = 0;
+            btnNuevo.Text = "Nuevo";
+            btnNuevo.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -250,12 +250,12 @@
         private GroupBox groupBox2;
         private Label lblEstudiante;
         private Label lblFechaDePrèstamo;
-        private TextBox textBox3;
+        private TextBox txtEstadoLibro;
         private Label lblEstadoDelLibro;
-        private TextBox textBox2;
+        private TextBox txtLibro;
         private Label lblLibro;
-        private TextBox textBox1;
-        private TextBox textBox4;
+        private TextBox txtEstudiante;
+        private TextBox dtpFechaPrestamo;
         private GroupBox groupBox3;
         private Button btnRegistrarPrèstamo;
         private Button btnNuevo;
