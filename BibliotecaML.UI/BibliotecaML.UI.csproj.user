@@ -31,8 +31,5 @@
     <Compile Update="FormREGISTRO DE USUARIOS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmEstudiantes.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>
