@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BibliotecaML.EN
 {
-    internal class Reporte
+    public class Reporte
     {
         public int IdReporte { get; set; }
-
-        public DateTime FechaInicio { get; set; }
-
-        public DateTime FechaFinal { get; set; }
-
-        public string TipoReporte { get; set; }
-
+        public string TipoReporte { get; set; } = string.Empty;
+        public string Detalles { get; set; } = string.Empty;
         public DateTime FechaGeneracion { get; set; }
-        }
+    }
 }

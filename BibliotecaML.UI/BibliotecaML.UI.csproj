@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BibliotecaML.DAL\BibliotecaML.DAL.csproj" />
     <ProjectReference Include="..\BibliotecaML.EN\BibliotecaML.EN.csproj" />
     <ProjectReference Include="..\BibliotecaML.LN\BibliotecaML.LN.csproj" />
   </ItemGroup>

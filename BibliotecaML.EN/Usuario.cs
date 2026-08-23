@@ -4,20 +4,32 @@ using System.Text;
 
 namespace BibliotecaML.EN
 {
-    internal class Usuario
+    public class Usuario
     {
         public int IdUsuario { get; set; }
 
-       public string Nombre { get; set; }
-       
-       public string Apellido { get; set; }
+        public string Nombre { get; set; } = string.Empty;
 
-       public string UsuarioLogin { get; set; }
+        public string Apellido { get; set; } = string.Empty;
 
-       public string Contraseña { get; set; }
+        // Propiedad requerida por FormREGISTRO DE USUARIOS
+        public string NombreUsuario { get; set; } = string.Empty;
 
-       public string Rol { get; set; }
+        // Mantienes UsuarioLogin por si lo usas en otra parte
+        public string UsuarioLogin { get; set; } = string.Empty;
 
-       public bool Estado { get; set; }
-        }
+        // Propiedades de autenticación y correo
+        public string Correo { get; set; } = string.Empty;
+
+        public string Clave { get; set; } = string.Empty;
+
+        public string Contraseña { get; set; } = string.Empty;
+
+        // Rol y tipo de usuario
+        public string TipoUsuario { get; set; } = string.Empty;
+
+        public string Rol { get; set; } = string.Empty;
+
+        public bool Estado { get; set; }
+    }
 }

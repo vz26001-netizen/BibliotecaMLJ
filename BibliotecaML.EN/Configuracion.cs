@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BibliotecaML.EN
+﻿namespace BibliotecaML.EN
 {
-    internal class Configuracion
+    public class Configuracion
     {
         public int IdConfiguracion { get; set; }
-
-        public string NombreBiblioteca { get; set; }
-
-        public string Direccion { get; set; }
-
-        public string Telefono { get; set; }
-
-        public string 
-        }
+        public string Clave { get; set; } = string.Empty;
+        public string Valor { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
+    }
 }

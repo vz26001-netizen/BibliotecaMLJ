@@ -1,26 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace BibliotecaML.EN
 {
-    internal class Estudiante
+    public class Estudiante
     {
         public int IdEstudiante { get; set; }
 
-        public string Nombre { get; set; }
+        public string Nombre { get; set; } = string.Empty;
 
-        public string Apellido { get; set; }
+        public string Apellido { get; set; } = string.Empty;
 
-        public string Documento { get; set; }
+        public string Documento { get; set; } = string.Empty;
 
-        public string TipoUsuario { get; set; }
+        public string Carnet { get; set; } = string.Empty;
 
-        public string Correo { get; set; }
+        public string Carrera { get; set; } = string.Empty;
 
-        public string Telefono { get; set; }
+        public string Correo { get; set; } = string.Empty;
+
+        public string Telefono { get; set; } = string.Empty;
 
         public bool Estado { get; set; }
-
     }
 }

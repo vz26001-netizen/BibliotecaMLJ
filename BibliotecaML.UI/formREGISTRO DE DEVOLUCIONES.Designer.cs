@@ -1,6 +1,6 @@
 ﻿namespace BibliotecaML.UI
 {
-    partial class formREGISTRO_DE_DEVOLUCIONES
+    partial class FormRegistroDevoluciones
     {
         /// <summary>
         /// Required designer variable.
@@ -30,124 +30,128 @@
         {
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
-            lblEstudiante = new Label();
-            txtEstudiante = new TextBox();
-            lblLibro = new Label();
-            txtLibro = new TextBox();
+            dtpFechaDevolucion = new DateTimePicker();
+            lblFechaDevolucion = new Label();
+            txtEstadoLibro = new TextBox();
             lblEstadoDelLibro = new Label();
-            txtEstadoDelLibro = new TextBox();
-            lblFechaDeDevolucion = new Label();
-            txtFechaDeDevolucion = new TextBox();
+            txtLibro = new TextBox();
+            lblLibro = new Label();
+            txtEstudiante = new TextBox();
+            lblEstudiante = new Label();
             groupBox3 = new GroupBox();
-            btnNuevo = new Button();
-            btnRegistrarDevolucion = new Button();
-            btnActualizar = new Button();
-            btnEliminar = new Button();
             btnLimpiar = new Button();
-            dataGridView1 = new DataGridView();
+            btnEliminar = new Button();
+            btnActualizar = new Button();
+            btnRegistrarDevolucion = new Button();
+            btnNuevo = new Button();
+            dgvDevoluciones = new DataGridView();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvDevoluciones).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
             // 
             groupBox1.BackgroundImage = Properties.Resources.Captura_de_pantalla_2026_08_12_1736212;
-            groupBox1.Location = new Point(287, 12);
+            groupBox1.Location = new Point(328, 16);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(200, 160);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(185, 167);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(txtFechaDeDevolucion);
-            groupBox2.Controls.Add(lblFechaDeDevolucion);
-            groupBox2.Controls.Add(txtEstadoDelLibro);
+            groupBox2.Controls.Add(dtpFechaDevolucion);
+            groupBox2.Controls.Add(lblFechaDevolucion);
+            groupBox2.Controls.Add(txtEstadoLibro);
             groupBox2.Controls.Add(lblEstadoDelLibro);
             groupBox2.Controls.Add(txtLibro);
             groupBox2.Controls.Add(lblLibro);
             groupBox2.Controls.Add(txtEstudiante);
             groupBox2.Controls.Add(lblEstudiante);
-            groupBox2.Location = new Point(79, 192);
+            groupBox2.Location = new Point(90, 256);
+            groupBox2.Margin = new Padding(3, 4, 3, 4);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(665, 81);
+            groupBox2.Padding = new Padding(3, 4, 3, 4);
+            groupBox2.Size = new Size(760, 108);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             // 
-            // lblEstudiante
+            // dtpFechaDevolucion
             // 
-            lblEstudiante.AutoSize = true;
-            lblEstudiante.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEstudiante.Location = new Point(21, 19);
-            lblEstudiante.Name = "lblEstudiante";
-            lblEstudiante.Size = new Size(73, 15);
-            lblEstudiante.TabIndex = 0;
-            lblEstudiante.Text = "Estudiante :";
+            dtpFechaDevolucion.Location = new Point(518, 54);
+            dtpFechaDevolucion.Name = "dtpFechaDevolucion";
+            dtpFechaDevolucion.Size = new Size(235, 27);
+            dtpFechaDevolucion.TabIndex = 7;
             // 
-            // txtEstudiante
+            // lblFechaDevolucion
             // 
-            txtEstudiante.BackColor = SystemColors.ScrollBar;
-            txtEstudiante.Location = new Point(100, 11);
-            txtEstudiante.Name = "txtEstudiante";
-            txtEstudiante.Size = new Size(171, 23);
-            txtEstudiante.TabIndex = 1;
+            lblFechaDevolucion.AutoSize = true;
+            lblFechaDevolucion.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFechaDevolucion.Location = new Point(351, 63);
+            lblFechaDevolucion.Name = "lblFechaDevolucion";
+            lblFechaDevolucion.Size = new Size(164, 18);
+            lblFechaDevolucion.TabIndex = 6;
+            lblFechaDevolucion.Text = "Fecha de devolución :";
+            // 
+            // txtEstadoLibro
+            // 
+            txtEstadoLibro.BackColor = SystemColors.ScrollBar;
+            txtEstadoLibro.Location = new Point(516, 15);
+            txtEstadoLibro.Margin = new Padding(3, 4, 3, 4);
+            txtEstadoLibro.Name = "txtEstadoLibro";
+            txtEstadoLibro.Size = new Size(237, 27);
+            txtEstadoLibro.TabIndex = 5;
+            // 
+            // lblEstadoDellLibro
+            // 
+            lblEstadoDelLibro.AutoSize = true;
+            lblEstadoDelLibro.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEstadoDelLibro.Location = new Point(383, 19);
+            lblEstadoDelLibro.Name = "lblEstadoDelLibro";
+            lblEstadoDelLibro.Size = new Size(127, 18);
+            lblEstadoDelLibro.TabIndex = 4;
+            lblEstadoDelLibro.Text = "Estado del libro :";
+            // 
+            // txtLibro
+            // 
+            txtLibro.BackColor = SystemColors.ScrollBar;
+            txtLibro.Location = new Point(114, 59);
+            txtLibro.Margin = new Padding(3, 4, 3, 4);
+            txtLibro.Name = "txtLibro";
+            txtLibro.Size = new Size(195, 27);
+            txtLibro.TabIndex = 3;
             // 
             // lblLibro
             // 
             lblLibro.AutoSize = true;
             lblLibro.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblLibro.Location = new Point(52, 47);
+            lblLibro.Location = new Point(59, 63);
             lblLibro.Name = "lblLibro";
-            lblLibro.Size = new Size(42, 15);
+            lblLibro.Size = new Size(53, 18);
             lblLibro.TabIndex = 2;
             lblLibro.Text = "Libro :";
             // 
-            // txtLibro
+            // txtEstudiante
             // 
-            txtLibro.BackColor = SystemColors.ScrollBar;
-            txtLibro.Location = new Point(100, 44);
-            txtLibro.Name = "txtLibro";
-            txtLibro.Size = new Size(171, 23);
-            txtLibro.TabIndex = 3;
+            txtEstudiante.BackColor = SystemColors.ScrollBar;
+            txtEstudiante.Location = new Point(114, 15);
+            txtEstudiante.Margin = new Padding(3, 4, 3, 4);
+            txtEstudiante.Name = "txtEstudiante";
+            txtEstudiante.Size = new Size(195, 27);
+            txtEstudiante.TabIndex = 1;
             // 
-            // lblEstadoDelLibro
+            // lblEstudiante
             // 
-            lblEstadoDelLibro.AutoSize = true;
-            lblEstadoDelLibro.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblEstadoDelLibro.Location = new Point(335, 14);
-            lblEstadoDelLibro.Name = "lblEstadoDelLibro";
-            lblEstadoDelLibro.Size = new Size(100, 15);
-            lblEstadoDelLibro.TabIndex = 4;
-            lblEstadoDelLibro.Text = "Estado del libro :";
-            // 
-            // txtEstadoDelLibro
-            // 
-            txtEstadoDelLibro.BackColor = SystemColors.ScrollBar;
-            txtEstadoDelLibro.Location = new Point(453, 11);
-            txtEstadoDelLibro.Name = "txtEstadoDelLibro";
-            txtEstadoDelLibro.Size = new Size(206, 23);
-            txtEstadoDelLibro.TabIndex = 5;
-            // 
-            // lblFechaDeDevolucion
-            // 
-            lblFechaDeDevolucion.AutoSize = true;
-            lblFechaDeDevolucion.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblFechaDeDevolucion.Location = new Point(307, 47);
-            lblFechaDeDevolucion.Name = "lblFechaDeDevolucion";
-            lblFechaDeDevolucion.Size = new Size(128, 15);
-            lblFechaDeDevolucion.TabIndex = 6;
-            lblFechaDeDevolucion.Text = "Fecha de devoluciòn :";
-            // 
-            // txtFechaDeDevolucion
-            // 
-            txtFechaDeDevolucion.BackColor = SystemColors.ScrollBar;
-            txtFechaDeDevolucion.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtFechaDeDevolucion.Location = new Point(453, 47);
-            txtFechaDeDevolucion.Name = "txtFechaDeDevolucion";
-            txtFechaDeDevolucion.Size = new Size(206, 21);
-            txtFechaDeDevolucion.TabIndex = 7;
-            txtFechaDeDevolucion.Text = "Mièrcoles,12 de agosto del 2026";
+            lblEstudiante.AutoSize = true;
+            lblEstudiante.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEstudiante.Location = new Point(24, 25);
+            lblEstudiante.Name = "lblEstudiante";
+            lblEstudiante.Size = new Size(92, 18);
+            lblEstudiante.TabIndex = 0;
+            lblEstudiante.Text = "Estudiante :";
             // 
             // groupBox3
             // 
@@ -156,91 +160,101 @@
             groupBox3.Controls.Add(btnActualizar);
             groupBox3.Controls.Add(btnRegistrarDevolucion);
             groupBox3.Controls.Add(btnNuevo);
-            groupBox3.Location = new Point(79, 279);
+            groupBox3.Location = new Point(90, 372);
+            groupBox3.Margin = new Padding(3, 4, 3, 4);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(665, 64);
+            groupBox3.Padding = new Padding(3, 4, 3, 4);
+            groupBox3.Size = new Size(760, 85);
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
-            // 
-            // btnNuevo
-            // 
-            btnNuevo.BackColor = SystemColors.ScrollBar;
-            btnNuevo.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNuevo.Location = new Point(6, 18);
-            btnNuevo.Name = "btnNuevo";
-            btnNuevo.Size = new Size(69, 23);
-            btnNuevo.TabIndex = 0;
-            btnNuevo.Text = "Nuevo";
-            btnNuevo.UseVisualStyleBackColor = false;
-            // 
-            // btnRegistrarDevolucion
-            // 
-            btnRegistrarDevolucion.BackColor = SystemColors.ScrollBar;
-            btnRegistrarDevolucion.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistrarDevolucion.Location = new Point(120, 18);
-            btnRegistrarDevolucion.Name = "btnRegistrarDevolucion";
-            btnRegistrarDevolucion.Size = new Size(84, 40);
-            btnRegistrarDevolucion.TabIndex = 1;
-            btnRegistrarDevolucion.Text = "Registrar Devoluciòn ";
-            btnRegistrarDevolucion.UseVisualStyleBackColor = false;
-            // 
-            // btnActualizar
-            // 
-            btnActualizar.BackColor = SystemColors.ScrollBar;
-            btnActualizar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualizar.Location = new Point(258, 18);
-            btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(75, 23);
-            btnActualizar.TabIndex = 2;
-            btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = false;
-            // 
-            // btnEliminar
-            // 
-            btnEliminar.BackColor = SystemColors.ScrollBar;
-            btnEliminar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEliminar.Location = new Point(395, 18);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(75, 23);
-            btnEliminar.TabIndex = 3;
-            btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = false;
             // 
             // btnLimpiar
             // 
             btnLimpiar.BackColor = SystemColors.ScrollBar;
             btnLimpiar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnLimpiar.Location = new Point(538, 18);
+            btnLimpiar.Location = new Point(615, 24);
+            btnLimpiar.Margin = new Padding(3, 4, 3, 4);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(75, 23);
+            btnLimpiar.Size = new Size(86, 31);
             btnLimpiar.TabIndex = 4;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // btnEliminar
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(79, 349);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(665, 67);
-            dataGridView1.TabIndex = 3;
+            btnEliminar.BackColor = SystemColors.ScrollBar;
+            btnEliminar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEliminar.Location = new Point(451, 24);
+            btnEliminar.Margin = new Padding(3, 4, 3, 4);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(86, 31);
+            btnEliminar.TabIndex = 3;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = false;
             // 
-            // formREGISTRO_DE_DEVOLUCIONES
+            // btnActualizar
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            btnActualizar.BackColor = SystemColors.ScrollBar;
+            btnActualizar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnActualizar.Location = new Point(295, 24);
+            btnActualizar.Margin = new Padding(3, 4, 3, 4);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(86, 31);
+            btnActualizar.TabIndex = 2;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = false;
+            // 
+            // btnRegistrarDevolucion
+            // 
+            btnRegistrarDevolucion.BackColor = SystemColors.ScrollBar;
+            btnRegistrarDevolucion.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegistrarDevolucion.Location = new Point(137, 24);
+            btnRegistrarDevolucion.Margin = new Padding(3, 4, 3, 4);
+            btnRegistrarDevolucion.Name = "btnRegistrarDevolucion";
+            btnRegistrarDevolucion.Size = new Size(115, 53);
+            btnRegistrarDevolucion.TabIndex = 1;
+            btnRegistrarDevolucion.Text = "Registrar Devolución ";
+            btnRegistrarDevolucion.UseVisualStyleBackColor = false;
+            // 
+            // btnNuevo
+            // 
+            btnNuevo.BackColor = SystemColors.ScrollBar;
+            btnNuevo.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnNuevo.Location = new Point(7, 24);
+            btnNuevo.Margin = new Padding(3, 4, 3, 4);
+            btnNuevo.Name = "btnNuevo";
+            btnNuevo.Size = new Size(79, 31);
+            btnNuevo.TabIndex = 0;
+            btnNuevo.Text = "Nuevo";
+            btnNuevo.UseVisualStyleBackColor = false;
+            // 
+            // dgvDevoluciones
+            // 
+            dgvDevoluciones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDevoluciones.Location = new Point(90, 465);
+            dgvDevoluciones.Margin = new Padding(3, 4, 3, 4);
+            dgvDevoluciones.Name = "dgvDevoluciones";
+            dgvDevoluciones.RowHeadersWidth = 51;
+            dgvDevoluciones.Size = new Size(760, 89);
+            dgvDevoluciones.TabIndex = 3;
+            // 
+            // FormRegistroDevoluciones
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Captura_de_pantalla_2026_08_12_195947;
-            ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(914, 600);
+            Controls.Add(dgvDevoluciones);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Name = "formREGISTRO_DE_DEVOLUCIONES";
-            Text = "formREGISTRO_DE_DEVOLUCIONES";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "FormRegistroDevoluciones";
+            Text = "REGISTRO DE DEVOLUCIONES";
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvDevoluciones).EndInit();
             ResumeLayout(false);
         }
 
@@ -252,9 +266,8 @@
         private Label lblLibro;
         private TextBox txtEstudiante;
         private Label lblEstudiante;
-        private TextBox txtFechaDeDevolucion;
-        private Label lblFechaDeDevolucion;
-        private TextBox txtEstadoDelLibro;
+        private Label lblFechaDevolucion;
+        private TextBox txtEstadoLibro;
         private Label lblEstadoDelLibro;
         private GroupBox groupBox3;
         private Button btnLimpiar;
@@ -262,6 +275,7 @@
         private Button btnActualizar;
         private Button btnRegistrarDevolucion;
         private Button btnNuevo;
-        private DataGridView dataGridView1;
+        private DataGridView dgvDevoluciones;
+        private DateTimePicker dtpFechaDevolucion;
     }
 }

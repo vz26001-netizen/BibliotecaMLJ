@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.UI\\BibliotecaML.UI.csproj": {}
+    "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.UI\\BibliotecaML.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj": {
+    "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj",
         "projectName": "BibliotecaML.DAL",
-        "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj",
-        "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.DAL\\obj\\",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj",
+        "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0-windows": {
             "framework": "net10.0-windows7.0",
             "targetAlias": "net10.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -52,6 +55,12 @@
         "net10.0-windows": {
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -71,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -365,20 +374,20 @@
         }
       }
     },
-    "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\BibliotecaML.EN.csproj": {
+    "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\BibliotecaML.EN.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj",
         "projectName": "BibliotecaML.EN",
-        "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\BibliotecaML.EN.csproj",
-        "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\obj\\",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj",
+        "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -387,7 +396,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -432,7 +440,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -726,20 +734,20 @@
         }
       }
     },
-    "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.LN\\BibliotecaML.LN.csproj": {
+    "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.LN\\BibliotecaML.LN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.LN\\BibliotecaML.LN.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.LN\\BibliotecaML.LN.csproj",
         "projectName": "BibliotecaML.LN",
-        "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.LN\\BibliotecaML.LN.csproj",
-        "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.LN\\obj\\",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.LN\\BibliotecaML.LN.csproj",
+        "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.LN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -748,7 +756,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -756,11 +763,11 @@
             "framework": "net10.0-windows7.0",
             "targetAlias": "net10.0-windows",
             "projectReferences": {
-              "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj": {
-                "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj"
+              "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj"
               },
-              "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\BibliotecaML.EN.csproj": {
-                "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\BibliotecaML.EN.csproj"
+              "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj"
               }
             }
           }
@@ -800,7 +807,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1094,20 +1101,20 @@
         }
       }
     },
-    "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.UI\\BibliotecaML.UI.csproj": {
+    "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.UI\\BibliotecaML.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.UI\\BibliotecaML.UI.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.UI\\BibliotecaML.UI.csproj",
         "projectName": "BibliotecaML.UI",
-        "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.UI\\BibliotecaML.UI.csproj",
-        "packagesPath": "C:\\Users\\kimbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.UI\\obj\\",
+        "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.UI\\BibliotecaML.UI.csproj",
+        "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kimbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1116,7 +1123,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1124,11 +1130,14 @@
             "framework": "net10.0-windows7.0",
             "targetAlias": "net10.0-windows",
             "projectReferences": {
-              "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\BibliotecaML.EN.csproj": {
-                "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.EN\\BibliotecaML.EN.csproj"
+              "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj"
               },
-              "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.LN\\BibliotecaML.LN.csproj": {
-                "projectPath": "C:\\Users\\kimbe\\source\\repos\\BibliotecaML\\BibliotecaML.LN\\BibliotecaML.LN.csproj"
+              "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.EN\\BibliotecaML.EN.csproj"
+              },
+              "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.LN\\BibliotecaML.LN.csproj": {
+                "projectPath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.LN\\BibliotecaML.LN.csproj"
               }
             }
           }
@@ -1168,7 +1177,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

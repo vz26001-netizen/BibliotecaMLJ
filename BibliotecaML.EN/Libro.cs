@@ -1,31 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BibliotecaML.EN
+﻿namespace BibliotecaML.EN
 {
-    internal class Libro
+    public class Libro
     {
         public int IdLibro { get; set; }
-
-        public string Codigo { get; set; }
-
-        public string Titulo { get; set; }
-
-        public string Autor { get; set; }
-
-        public string Editorial { get; set; }
-
-        public string Categoria { get; set; }
-
-        public string ISBN { get; set; }
-
-        public int AñoPublicacion { get; set; }
-
-        public int Cantidad { get; set; }
-
-        public int Disponibles { get; set; }
-
+        public string Codigo { get; set; } = string.Empty;
+        public string Titulo { get; set; } = string.Empty;
+        public string Autor { get; set; } = string.Empty;
+        public string Editorial { get; set; } = string.Empty;
+        public string Categoria { get; set; } = string.Empty;
+        public string ISBNCodigo { get; set; } = string.Empty;
+        public int AnioPublicacion { get; set; }
+        public int CantidadDisponible { get; set; }
         public bool Estado { get; set; }
-        }
+    }
 }
