@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaML.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9d4d50d499ff8859a6b376482b1330e0146e2bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f373f0e79af6dbae12f027f8785fe6ebeb96bac2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaML.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaML.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

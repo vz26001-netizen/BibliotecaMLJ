@@ -30,17 +30,29 @@
         {
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
+<<<<<<< HEAD:BibliotecaML.UI/FormGESTIÓN DE REPORTES.Designer.cs
             lblTipoDeReporte = new Label();
             FechaInicial = new Label();
+=======
+            txtTipoReporte = new TextBox();
+            lblTipoDeReporte = new Label();
+            txtFechaFinal = new TextBox();
+            FechaFinal = new Label();
+            txtFechaInicial = new TextBox();
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5:BibliotecaML.UI/FormGESTIÒN DE REPORTES.Designer.cs
             lblFechaInicial = new Label();
             groupBox3 = new GroupBox();
             btnLimpiar = new Button();
             btnExportarPDF = new Button();
             btnImprimir = new Button();
+<<<<<<< HEAD:BibliotecaML.UI/FormGESTIÓN DE REPORTES.Designer.cs
             dgvReportes = new DataGridView();
             dtpFechaInicial = new DateTimePicker();
             dtpFechaFinal = new DateTimePicker();
             cmbTipoReporte = new ComboBox();
+=======
+            dataGridView1 = new DataGridView();
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5:BibliotecaML.UI/FormGESTIÒN DE REPORTES.Designer.cs
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvReportes).BeginInit();
@@ -59,11 +71,19 @@
             // 
             // groupBox2
             // 
+<<<<<<< HEAD:BibliotecaML.UI/FormGESTIÓN DE REPORTES.Designer.cs
             groupBox2.Controls.Add(cmbTipoReporte);
             groupBox2.Controls.Add(dtpFechaFinal);
             groupBox2.Controls.Add(dtpFechaInicial);
             groupBox2.Controls.Add(lblTipoDeReporte);
             groupBox2.Controls.Add(FechaInicial);
+=======
+            groupBox2.Controls.Add(txtTipoReporte);
+            groupBox2.Controls.Add(lblTipoDeReporte);
+            groupBox2.Controls.Add(txtFechaFinal);
+            groupBox2.Controls.Add(FechaFinal);
+            groupBox2.Controls.Add(txtFechaInicial);
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5:BibliotecaML.UI/FormGESTIÒN DE REPORTES.Designer.cs
             groupBox2.Controls.Add(lblFechaInicial);
             groupBox2.Location = new Point(136, 267);
             groupBox2.Margin = new Padding(3, 4, 3, 4);
@@ -73,10 +93,22 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             // 
+<<<<<<< HEAD:BibliotecaML.UI/FormGESTIÓN DE REPORTES.Designer.cs
+=======
+            // txtTipoReporte
+            // 
+            txtTipoReporte.BackColor = SystemColors.ScrollBar;
+            txtTipoReporte.Location = new Point(163, 79);
+            txtTipoReporte.Name = "txtTipoReporte";
+            txtTipoReporte.Size = new Size(255, 23);
+            txtTipoReporte.TabIndex = 5;
+            // 
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5:BibliotecaML.UI/FormGESTIÒN DE REPORTES.Designer.cs
             // lblTipoDeReporte
             // 
             lblTipoDeReporte.AutoSize = true;
             lblTipoDeReporte.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD:BibliotecaML.UI/FormGESTIÓN DE REPORTES.Designer.cs
             lblTipoDeReporte.Location = new Point(74, 109);
             lblTipoDeReporte.Name = "lblTipoDeReporte";
             lblTipoDeReporte.Size = new Size(118, 18);
@@ -93,6 +125,43 @@
             FechaInicial.TabIndex = 2;
             FechaInicial.Text = "Fecha Final :";
             FechaInicial.Click += FechaInicial_Click;
+=======
+            lblTipoDeReporte.Location = new Point(65, 82);
+            lblTipoDeReporte.Name = "lblTipoDeReporte";
+            lblTipoDeReporte.Size = new Size(92, 15);
+            lblTipoDeReporte.TabIndex = 4;
+            lblTipoDeReporte.Text = "Tip de reporte :";
+            // 
+            // txtFechaFinal
+            // 
+            txtFechaFinal.BackColor = SystemColors.ScrollBar;
+            txtFechaFinal.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtFechaFinal.Location = new Point(160, 48);
+            txtFechaFinal.Name = "txtFechaFinal";
+            txtFechaFinal.Size = new Size(258, 21);
+            txtFechaFinal.TabIndex = 3;
+            txtFechaFinal.Text = "Mièrcoles, 12 de agosto del 2026";
+            // 
+            // FechaFinal
+            // 
+            FechaFinal.AutoSize = true;
+            FechaFinal.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            FechaFinal.Location = new Point(65, 51);
+            FechaFinal.Name = "FechaFinal";
+            FechaFinal.Size = new Size(79, 15);
+            FechaFinal.TabIndex = 2;
+            FechaFinal.Text = "Fecha Final  :";
+            // 
+            // txtFechaInicial
+            // 
+            txtFechaInicial.BackColor = SystemColors.ScrollBar;
+            txtFechaInicial.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtFechaInicial.Location = new Point(160, 16);
+            txtFechaInicial.Name = "txtFechaInicial";
+            txtFechaInicial.Size = new Size(258, 21);
+            txtFechaInicial.TabIndex = 1;
+            txtFechaInicial.Text = "Mièrcoles, 12 de agosto del 2026";
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5:BibliotecaML.UI/FormGESTIÒN DE REPORTES.Designer.cs
             // 
             // lblFechaInicial
             // 
@@ -119,6 +188,7 @@
             groupBox3.TabStop = false;
             // 
             // btnLimpiar
+<<<<<<< HEAD:BibliotecaML.UI/FormGESTIÓN DE REPORTES.Designer.cs
             // 
             btnLimpiar.BackColor = SystemColors.ScrollBar;
             btnLimpiar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -129,6 +199,39 @@
             btnLimpiar.TabIndex = 2;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = false;
+=======
+            // 
+            btnLimpiar.BackColor = SystemColors.ScrollBar;
+            btnLimpiar.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLimpiar.Location = new Point(359, 10);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(92, 23);
+            btnLimpiar.TabIndex = 2;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = false;
+            // 
+            // btnExportarPDF
+            // 
+            btnExportarPDF.BackColor = SystemColors.ScrollBar;
+            btnExportarPDF.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnExportarPDF.Location = new Point(203, 10);
+            btnExportarPDF.Name = "btnExportarPDF";
+            btnExportarPDF.Size = new Size(102, 23);
+            btnExportarPDF.TabIndex = 1;
+            btnExportarPDF.Text = "Exportar PDF";
+            btnExportarPDF.UseVisualStyleBackColor = false;
+            // 
+            // btnImprimir
+            // 
+            btnImprimir.BackColor = SystemColors.ScrollBar;
+            btnImprimir.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnImprimir.Location = new Point(56, 10);
+            btnImprimir.Name = "btnImprimir";
+            btnImprimir.Size = new Size(92, 23);
+            btnImprimir.TabIndex = 0;
+            btnImprimir.Text = "Imprimir PDF";
+            btnImprimir.UseVisualStyleBackColor = false;
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5:BibliotecaML.UI/FormGESTIÒN DE REPORTES.Designer.cs
             // 
             // btnExportarPDF
             // 
@@ -210,9 +313,18 @@
 
         private GroupBox groupBox1;
         private GroupBox groupBox2;
+<<<<<<< HEAD:BibliotecaML.UI/FormGESTIÓN DE REPORTES.Designer.cs
         private Label FechaInicial;
         private Label lblFechaInicial;
         private Label lblTipoDeReporte;
+=======
+        private Label FechaFinal;
+        private TextBox txtFechaInicial;
+        private Label lblFechaInicial;
+        private Label lblTipoDeReporte;
+        private TextBox txtFechaFinal;
+        private TextBox txtTipoReporte;
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5:BibliotecaML.UI/FormGESTIÒN DE REPORTES.Designer.cs
         private GroupBox groupBox3;
         private Button btnImprimir;
         private Button btnLimpiar;

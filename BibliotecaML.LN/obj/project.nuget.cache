@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "5PVaCdchi8s=",
+=======
+  "dgSpecHash": "yHR5WEFGcNI=",
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5
   "success": true,
   "projectFilePath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.LN\\BibliotecaML.LN.csproj",
   "expectedPackageFiles": [

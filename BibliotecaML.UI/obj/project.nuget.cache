@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Ba3KNRHJ95M=",
+=======
+  "dgSpecHash": "19J5unp9sQE=",
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5
   "success": true,
   "projectFilePath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.UI\\BibliotecaML.UI.csproj",
   "expectedPackageFiles": [

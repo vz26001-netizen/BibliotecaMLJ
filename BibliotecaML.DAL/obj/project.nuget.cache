@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ft/ZKb1qZsA=",
+=======
+  "dgSpecHash": "QWtL85Xg/44=",
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5
   "success": true,
   "projectFilePath": "C:\\Users\\miche\\source\\repos\\BibliotecaMLJ\\BibliotecaML.DAL\\BibliotecaML.DAL.csproj",
   "expectedPackageFiles": [

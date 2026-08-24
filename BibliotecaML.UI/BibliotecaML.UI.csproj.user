@@ -4,10 +4,26 @@
     <Compile Update="FormGESTIÓN DE REPORTES.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="FormINICIO DE SESIÓN.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormMENÚ PRINCIPAL.cs">
+=======
+    <Compile Update="FormEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormGESTIÒN DE REPORTES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormINICIO DE SECIÒN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMENÙ PRINCIPAL.cs">
+>>>>>>> 35b32af7975df0d18256652614923535b74542e5
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formREGISTRO DE DEVOLUCIONES.cs">
@@ -20,9 +36,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormREGISTRO DE USUARIOS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FrmEstudiantes.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
